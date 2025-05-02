@@ -20,3 +20,23 @@ ref: Digital Design and Computer Architecture ARM edition by Harris
 In our workshop, we have explained the reason behind each line of wire across multiple episodes. 
 
 ![image](https://github.com/user-attachments/assets/0cbcf160-2750-4286-9c24-b48418b063c9)
+
+## Netlist:
+
+![image](https://github.com/Muragharajendra/CPU-Design/blob/main/Screenshot_Netlist.png)
+
+## Testing : 
+
+To test a CPU working we need to have an extensive code which can examine each and every instruction covered in this CPU design , and then if that code is being executed by our CPU 
+with the required final result we can say that CPU passed the initial test 
+
+To test our design, we have taken reference test Code from Digital Design and Computer Architecture ARM edition by Harris. 
+
+### Test Code : 
+
+![image](https://github.com/user-attachments/assets/6597a10c-7191-4b00-bbf0-d3e907aeeedd)
+
+
+imem.v : instruction memory source this codes in hexadecimal format . 
+
+testbench.sv : Check if we are getting mem[84]==7 or not, which is the final expected outcome of this test code . 
